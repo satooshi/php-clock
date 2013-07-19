@@ -28,5 +28,5 @@ after_script:
   - php travis/checkstyle.php
   - php travis/pmd.php
   - php travis/junit.php
-  #- php vendor/bin/coveralls -v --exclude-no-stmt
+  - php vendor/bin/coveralls -v --exclude-no-stmt
 
